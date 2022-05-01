@@ -15,15 +15,14 @@ function JoanBin2Dec() {
         result.innerHTML = '🤷🏻‍♀️Waiting for a valid binary number...'
     }
     if (numero >> 1 || numero >> 10000) {
-        infoerror.innerHTML = 'You entered a non-binary digit (please enter only 0 or 1)'
         infobien.innerHTML = ''
+        infoerror.innerHTML = 'You entered a non-binary digit (please enter only 0 or 1)'
     }
     if (numero == '') {
-        infoerror.innerHTML = ''
         infobien.innerHTML = ''
+        infoerror.innerHTML = ''
     }
 }
-
 
 
 // 🤷🏻‍♀️Waiting for a valid binary number... //

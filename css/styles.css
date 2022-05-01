@@ -127,6 +127,16 @@ body {
     text-align: left;
 }
 
+#resultadohexadecimal {
+    background-color: black;
+    border-color: white;
+    height: 60px;
+    width: 400px;
+    color: white;
+    font-size: 30px;
+    text-align: left;
+}
+
 #resultado {
     text-align: center;
     color: #e74c3b;
@@ -136,6 +146,14 @@ footer {
     color: #333333;
     text-align: center;
     height: 10vh;
+}
+
+#boton {
+    background-color: black;
+    border-color: white;
+    height: 25px;
+    width: 135px;
+    color: white;
 }
 
 
