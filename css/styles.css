@@ -172,10 +172,13 @@ footer {
     .column-4 {
         width: 50%;
     }
-    #boton {
-        width: 90%;
+    #resultadobinario {
+        width: 80%;
+    }
+    #resultadohexadecimal {
+        width: 80%;
     }
     h1 {
-        font-size: 2.5rem;
+        font-size: 1.7rem;
     }
 }
