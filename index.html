@@ -13,16 +13,20 @@
 <body>
     <div class="flex">
         <div>
-            <h1>Bin2Dec App</h1>
-            <p style="margin:-2.5% 0;">Enter a binary number, get a decimal conversion.</p>
-            <p style="color: #209853;">Here is your decimal!</p>
+            <h1><span style="color: #0c0c0c;">000</span>Bin2Dec App<span style="color: #0c0c0c;">000</span></h1>
+            <p style="margin:-2.5% 0;">Enter a <span style="background-color: #0b2214;">binary number</span>, get a <span style="background-color: #0b2214;">decimal</span> conversion.</p>
+            <p id="infobien" style="color: #25af60;"></p>
+            <p id="infoerror" style="color: #e74c3b;"></p>
             <br>
-            <input class="inputbinario" type="number" name="" id="total" placeholder="">
-            <p id="numerocalculado"></p>
+            <input type="number" placeholder="" id="resultadobinario" value="" onkeyup="JoanBin2Dec()">
+            <p id="procesando" style="color: #999999;"></p>
         </div>
     </div>
 
-    <footer>Made by <a style="color: #ffffff;" href="https://www.instagram.com/joaanbh/">@joaanbh</a> 🤖</footer>
+    <footer>
+        Made by <a style="color: #ffffff;" href="https://www.instagram.com/joaanbh/">@joaanbh</a> 
+        <p>🤖</p>
+    </footer>
 
 </body>
 

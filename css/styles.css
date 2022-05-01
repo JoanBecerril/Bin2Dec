@@ -117,14 +117,19 @@ body {
     height: 90vh;
 }
 
-.inputbinario {
+#resultadobinario {
     background-color: black;
     border-color: white;
-    height: 8vh;
-    width: 45vh;
+    height: 60px;
+    width: 400px;
     color: white;
     font-size: 30px;
     text-align: left;
+}
+
+#resultado {
+    text-align: center;
+    color: #e74c3b;
 }
 
 footer {
