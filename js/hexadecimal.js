@@ -5,7 +5,6 @@ function JoanBin2DecHex() {
     var result = document.getElementById('result')
     var hexadecimal = parseInt(resultadohexadecimal, 16)
     result.innerHTML = hexadecimal
-
     var numero = resultadohexadecimal.charAt(resultadohexadecimal.length - 1)
 
     if (numero == 0 || numero == 1 || numero == 2 || numero == 3 || numero == 4 || numero == 5 || numero == 6 || numero == 7 || numero == 8 || numero == 9 || numero == "A" || numero == "B" || numero == "C" || numero == "D" || numero == "E" || numero == "F" || numero == "a" || numero == "b" || numero == "c" || numero == "d" || numero == "e" || numero == "f" ) {

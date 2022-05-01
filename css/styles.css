@@ -172,4 +172,7 @@ footer {
     .column-4 {
         width: 50%;
     }
+    #boton {
+        width: 90%;
+    }
 }

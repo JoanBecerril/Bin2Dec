@@ -5,6 +5,7 @@ function JoanBin2Dec() {
     var result = document.getElementById('result')
     result.innerHTML = parseInt(resultadobinario, 2);
     var numero = resultadobinario.charAt(resultadobinario.length - 1)
+    
     if (resultadobinario == '') {
         result.innerHTML = ''
     }
